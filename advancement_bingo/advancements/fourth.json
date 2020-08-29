@@ -1,0 +1,23 @@
+{
+  "parent": "bingo:root",
+  "display": {
+    "title": "I don't feel so good",
+    "description": "Become poisoned",
+    "icon": {
+      "item": "minecraft:spider_eye"
+    }
+  },
+  "criteria": {
+    "pearl": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:poison": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bingo:advancement"
+  }
+}

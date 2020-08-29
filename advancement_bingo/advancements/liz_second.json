@@ -1,0 +1,28 @@
+{
+  "parent": "bingo:root",
+  "display": {
+    "title": "The great outdoors",
+    "description": "Cooked a porkchop on a campfire",
+    "icon": {
+        "item": "minecraft:campfire"
+    }
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "minecraft:campfires"
+          }
+        },
+        "item": {
+          "item": "minecraft:porkchop"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bingo:advancement"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "parent": "bingo:root",
+  "display": {
+    "title": "Could you repeat that?",
+    "description": "Placed a redstone repeater",
+    "icon": {
+        "item": "minecraft:redstone"
+    }
+  },
+  "criteria": {
+    "repeater": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:repeater"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bingo:advancement"
+  }
+}

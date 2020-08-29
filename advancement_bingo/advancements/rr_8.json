@@ -1,0 +1,31 @@
+{
+  "parent": "bingo:root",
+  "display": {
+    "title": "1 Fish, 2 Fish, Red Fish, Blue Fish",
+    "description": "Obtain a Cod, a Salmon, and a Pufferfish",
+    "icon": {
+        "item": "minecraft:pufferfish_bucket"
+    }
+  },
+  "criteria": {
+    "granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+		  {
+			"item": "minecraft:pufferfish"
+			},
+		  {
+			"item": "minecraft:salmon"
+			},
+		  {
+			"item": "minecraft:cod"
+		  }
+		]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bingo:advancement"
+  }
+}

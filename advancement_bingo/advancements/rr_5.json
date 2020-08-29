@@ -1,0 +1,23 @@
+{
+  "parent": "bingo:root",
+  "display": {
+    "title": "Low Effort Rainbow",
+    "description": "Placed an iron block, a gold block, and a diamond block",
+    "icon": {
+        "item": "minecraft:bow"
+    }
+  },
+  "criteria": {
+    "repeater": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:iron_block",
+		"block": "minecraft:gold_block",
+		"block": "minecraft:diamond_block"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bingo:advancement"
+  }
+}

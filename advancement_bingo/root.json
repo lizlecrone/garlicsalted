@@ -1,0 +1,16 @@
+{
+  "display": {
+    "title": "Bingo!",
+    "description": "Bingo was my name-o!",
+    "icon": {
+      "item": "minecraft:bedrock"
+    },
+    "frame": "challenge",
+    "background": "minecraft:textures/gui/options_background.png"
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

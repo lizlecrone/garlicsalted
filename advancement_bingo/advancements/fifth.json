@@ -1,0 +1,25 @@
+{
+  "parent": "bingo:root",
+  "display": {
+    "title": "It was like that when I got here",
+    "description": "Obtain a Damaged Anvil",
+    "icon": {
+        "item": "minecraft:damaged_anvil"
+    }
+  },
+  "criteria": {
+    "granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:damaged_anvil"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bingo:advancement"
+  }
+}

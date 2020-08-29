@@ -1,0 +1,25 @@
+{
+  "parent": "bingo:root",
+  "display": {
+    "title": "Blue Pick Good",
+    "description": "Craft a Diamond Pick",
+    "icon": {
+        "item": "minecraft:diamond_pickaxe"
+    }
+  },
+  "criteria": {
+    "granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond_pickaxe"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bingo:advancement"
+  }
+}

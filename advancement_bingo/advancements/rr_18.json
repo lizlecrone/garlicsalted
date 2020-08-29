@@ -1,0 +1,21 @@
+{
+  "parent": "bingo:root",
+  "display": {
+    "title": "What up, I'm Jared, I'm 19 and I never learned to f*cking read. ",
+    "description": "Placed a bookshelf",
+    "icon": {
+        "item": "minecraft:bookshelf"
+    }
+  },
+  "criteria": {
+    "book": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:bookshelf"
+      }
+    }
+  },
+  "rewards": {
+    "function": "bingo:advancement"
+  }
+}

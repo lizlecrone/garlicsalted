@@ -1,0 +1,23 @@
+{
+  "parent": "bingo:root",
+  "display": {
+    "title": "GIDDY UP",
+    "description": "Tame a Horse",
+    "icon": {
+        "item": "minecraft:leather_horse_armor"
+    }
+  },
+  "criteria": {
+    "tame": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": {
+		  "type": "minecraft:horse"
+        }
+      }
+	}
+  },
+  "rewards": {
+    "function": "bingo:advancement"
+  }
+}

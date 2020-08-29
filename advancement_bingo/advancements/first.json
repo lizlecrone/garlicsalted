@@ -1,0 +1,23 @@
+{
+  "parent": "bingo:root",
+  "display": {
+    "title": "Moo?",
+    "description": "Reel in a cow using a fishing rod",
+    "icon": {
+        "item": "minecraft:fishing_rod"
+    }
+  },
+  "criteria": {
+    "moo": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "entity": {
+          "entity": "minecraft:cow"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bingo:advancement"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "bingo:root",
+  "display": {
+    "title": "An expensive snack!",
+    "description": "Eat a golden apple",
+    "icon": {
+        "item": "minecraft:golden_apple"
+    }
+  },
+  "criteria": {
+    "apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+            "item": "minecraft:golden_apple"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bingo:advancement"
+  }
+}

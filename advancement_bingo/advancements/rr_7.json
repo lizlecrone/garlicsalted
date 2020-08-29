@@ -1,0 +1,25 @@
+{
+  "parent": "bingo:root",
+  "display": {
+    "title": "I'm sure this is worth the effort.",
+    "description": "Obtain a block of obsidian",
+    "icon": {
+        "item": "minecraft:obsidian"
+    }
+  },
+  "criteria": {
+    "granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:obsidian"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "bingo:advancement"
+  }
+}
