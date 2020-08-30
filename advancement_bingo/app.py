@@ -25,7 +25,7 @@ def generate_random():
 
 	return current_app.response_class(
 		stream_and_remove_file(),
-		headers={'Content-Disposition': 'attachment', 'filename': 'bingo.zip'},
+		headers={'Content-Disposition': 'attachment', 'filename': 'hunt.zip'},
 		mimetype='application/zip'
 	)
 
@@ -42,7 +42,7 @@ def generate_custom():
 
 	return current_app.response_class(
 		stream_and_remove_file(),
-		headers={'Content-Disposition': 'attachment', 'filename': 'bingo.zip'},
+		headers={'Content-Disposition': 'attachment', 'filename': 'hunt.zip'},
 		mimetype='application/zip'
 	)
 

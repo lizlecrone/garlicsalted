@@ -1,5 +1,5 @@
 {
-  "parent": "bingo:root",
+  "parent": "hunt:root",
   "display": {
     "title": "What up, I'm Jared, I'm 19 and I never learned to f*cking read. ",
     "description": "Placed a bookshelf",
@@ -16,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "bingo:advancement"
+    "function": "hunt:advancement"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "bingo:root",
+  "parent": "hunt:root",
   "display": {
     "title": "Can I offer you a nice egg in this trying time?",
     "description": "Make a Trade with a Villager",
@@ -13,6 +13,6 @@
     }
   },
   "rewards": {
-    "function": "bingo:advancement"
+    "function": "hunt:advancement"
   }
 }

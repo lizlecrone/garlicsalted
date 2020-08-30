@@ -250,9 +250,9 @@ function Instructions() {
 		    What is this?
 	    </h4>
 	    <p>
-		    Start a new world with custom advancements and race alone or with friends to complete them all!
-		    The custom advancements will show up in your advancements menu. When you complete them all,
-		    your victory will be announced in chat and you'll be put into spectator mode.
+		    This is Minecraft Scavenger Hunt!
+		    Start a new world and race to complete all the custom advancements, alone or with friends.
+		    Once you complete them all, your victory will be announced in chat, and you'll be put into spectator mode.
 		</p>
 		<h4>
 		    How do I use it?
@@ -265,8 +265,29 @@ function Instructions() {
 			<li>Select Randomize or Customize to build a data pack.</li>
 			<li>Download it.</li>
 			<li>Unzip it in your Minecraft world's "datapacks" folder</li>
-			<li>Run "/function bingo:start" when all players are online and ready!</li>
+			<li>Run "/function hunt:start" when all players are online and ready!</li>
 		</ol>
+		<div
+			style={{
+				marginTop: '100px',
+				textAlign: 'center',
+			}}
+		>
+			<p
+				style={{
+					margin: 0,
+				}}
+			>
+				This is an <a style={{ color: 'white' }} href="https://github.com/lizlecrone/garlicsalted">open source project</a>.
+			</p>
+			<p
+				style={{
+					margin: 0,
+				}}
+			>
+				Not affiliated with or approved by Minecraft or Mojang.
+			</p>
+		</div>
 		</div>
 	)
 }

@@ -1,5 +1,5 @@
 {
-  "parent": "bingo:root",
+  "parent": "hunt:root",
   "display": {
     "title": "Could you repeat that?",
     "description": "Placed a redstone repeater",
@@ -16,6 +16,6 @@
     }
   },
   "rewards": {
-    "function": "bingo:advancement"
+    "function": "hunt:advancement"
   }
 }

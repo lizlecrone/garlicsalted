@@ -1,5 +1,5 @@
 {
-  "parent": "bingo:root",
+  "parent": "hunt:root",
   "display": {
     "title": "Low Effort Rainbow",
     "description": "Placed an iron block, a gold block, and a diamond block",
@@ -18,6 +18,6 @@
     }
   },
   "rewards": {
-    "function": "bingo:advancement"
+    "function": "hunt:advancement"
   }
 }

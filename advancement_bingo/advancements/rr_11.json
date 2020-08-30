@@ -1,5 +1,5 @@
 {
-  "parent": "bingo:root",
+  "parent": "hunt:root",
   "display": {
     "title": "GIDDY UP",
     "description": "Tame a Horse",
@@ -18,6 +18,6 @@
 	}
   },
   "rewards": {
-    "function": "bingo:advancement"
+    "function": "hunt:advancement"
   }
 }

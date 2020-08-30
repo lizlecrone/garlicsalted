@@ -1,5 +1,5 @@
 {
-  "parent": "bingo:root",
+  "parent": "hunt:root",
   "display": {
     "title": "Blue Pick Good",
     "description": "Craft a Diamond Pick",
@@ -20,6 +20,6 @@
     }
   },
   "rewards": {
-    "function": "bingo:advancement"
+    "function": "hunt:advancement"
   }
 }

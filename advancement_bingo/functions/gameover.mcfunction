@@ -5,6 +5,6 @@ summon firework_rocket ~1 ~1 ~-1 {LifeTime:15,FireworksItem:{id:firework_rocket,
 
 
 playsound minecraft:ui.toast.challenge_complete master @a
-say Game over! And bingo is @s's name-o!
+say @s has completed all Scavenger Hunt advancements!
 gamemode spectator @s
 

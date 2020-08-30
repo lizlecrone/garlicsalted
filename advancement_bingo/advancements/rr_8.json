@@ -1,5 +1,5 @@
 {
-  "parent": "bingo:root",
+  "parent": "hunt:root",
   "display": {
     "title": "1 Fish, 2 Fish, Red Fish, Blue Fish",
     "description": "Obtain a Cod, a Salmon, and a Pufferfish",
@@ -26,6 +26,6 @@
     }
   },
   "rewards": {
-    "function": "bingo:advancement"
+    "function": "hunt:advancement"
   }
 }
