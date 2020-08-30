@@ -1,4 +1,4 @@
-garlicsalted.com
+[Minecraft Scavenger Hunt](https://garlicsalted.com)
 
 Open to contributions: If you have any advancement ideas, feel free to submit a pull request, and I'll accept whichever ones look fun!
 
