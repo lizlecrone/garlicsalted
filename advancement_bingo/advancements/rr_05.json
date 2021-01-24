@@ -4,7 +4,7 @@
     "title": "Low Effort Rainbow",
     "description": "Placed an iron block, a gold block, and a diamond block",
     "icon": {
-        "item": "minecraft:bow"
+      "item": "minecraft:bow"
     }
   },
   "criteria": {
@@ -12,8 +12,8 @@
       "trigger": "minecraft:placed_block",
       "conditions": {
         "block": "minecraft:iron_block",
-		"block": "minecraft:gold_block",
-		"block": "minecraft:diamond_block"
+        "block": "minecraft:gold_block",
+        "block": "minecraft:diamond_block"
       }
     }
   },
