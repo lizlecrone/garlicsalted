@@ -1,0 +1,21 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "A Sticky Situation",
+    "description": "Get Stuck in a Cobweb",
+    "icon": {
+      "item": "minecraft:cobweb"
+    }
+  },
+  "criteria": {
+    "web": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:cobweb"
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

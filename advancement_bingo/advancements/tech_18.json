@@ -1,0 +1,29 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "A Leaf on the Wind",
+    "description": "Hold 1 Single Leaf Block in Your Inventory and NOTHING Else",
+    "icon": {
+      "item": "minecraft:oak_leaves"
+    }
+  },
+  "criteria": {
+    "alan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:leaves",
+            "count": 1
+          }
+        ],
+        "slots": {
+          "occupied": 1
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

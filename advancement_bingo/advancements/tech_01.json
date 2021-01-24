@@ -1,0 +1,32 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Controlled Blast",
+    "description": "Block a Creeper Explosion",
+    "icon": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "criteria": {
+    "blast": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "type": {
+            "source_entity": {
+              "type": "minecraft:creeper"
+            },
+            "is_explosion": true
+          },
+          "taken": {
+            "min": 0.0
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

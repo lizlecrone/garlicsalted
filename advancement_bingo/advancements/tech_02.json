@@ -1,0 +1,24 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "A Waste of Time and Money",
+    "description": "Wear Out a Gold Hoe",
+    "icon": {
+      "item": "minecraft:golden_hoe"
+    }
+  },
+  "criteria": {
+    "hoe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "item": "minecraft:golden_hoe"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

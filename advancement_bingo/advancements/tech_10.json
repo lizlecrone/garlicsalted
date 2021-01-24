@@ -1,0 +1,70 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Sheep of a Different Color",
+    "description": "Dye a Red, Blue, Yellow, Orange, and Purple Sheep",
+    "icon": {
+      "item": "minecraft:purple_wool"
+    }
+  },
+  "criteria": {
+    "trigger_1": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:red_dye"
+        },
+        "entity": {
+          "type": "minecraft:sheep"
+        }
+      }
+    },
+    "trigger_2": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:blue_dye"
+        },
+        "entity": {
+          "type": "minecraft:sheep"
+        }
+      }
+    },
+    "trigger_3": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:yellow_dye"
+        },
+        "entity": {
+          "type": "minecraft:sheep"
+        }
+      }
+    },
+    "trigger_4": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:orange_dye"
+        },
+        "entity": {
+          "type": "minecraft:sheep"
+        }
+      }
+    },
+    "trigger_5": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "item": "minecraft:purple_dye"
+        },
+        "entity": {
+          "type": "minecraft:sheep"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

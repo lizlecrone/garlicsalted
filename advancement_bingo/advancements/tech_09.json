@@ -1,0 +1,28 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Welcome to My TED Talk",
+    "description": "Place a Signed Book on a Lectern",
+    "icon": {
+      "item": "minecraft:lectern"
+    }
+  },
+  "criteria": {
+    "ted": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:lectern"
+          }
+        },
+        "item": {
+          "item": "minecraft:written_book"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

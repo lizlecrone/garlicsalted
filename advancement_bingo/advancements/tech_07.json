@@ -1,0 +1,21 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Polish a Bird Turd",
+    "description": "Place Polished Diorite",
+    "icon": {
+      "item": "minecraft:polished_diorite"
+    }
+  },
+  "criteria": {
+    "birdshit": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:polished_diorite"
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

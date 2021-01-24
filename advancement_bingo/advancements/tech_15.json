@@ -1,0 +1,55 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "TactiCOOL Fishing",
+    "description": "Catch a Fish in a Bucket (Yes this is the same as the default advancement don't @ me)",
+    "icon": {
+      "item": "minecraft:salmon_bucket"
+    }
+  },
+  "criteria": {
+    "cod_bucket": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "item": "minecraft:cod_bucket"
+        }
+      }
+    },
+    "tropical_fish_bucket": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "item": "minecraft:tropical_fish_bucket"
+        }
+      }
+    },
+    "pufferfish_bucket": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "item": "minecraft:pufferfish_bucket"
+        }
+      }
+    },
+    "salmon_bucket": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "item": "minecraft:salmon_bucket"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "cod_bucket",
+      "tropical_fish_bucket",
+      "pufferfish_bucket",
+      "salmon_bucket"
+    ]
+  ],
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

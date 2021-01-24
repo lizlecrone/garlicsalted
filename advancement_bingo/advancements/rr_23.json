@@ -1,0 +1,21 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Just the Tip",
+    "description": "Touch some lava, just a little bit.",
+    "icon": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "criteria": {
+    "custom_test_name": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "lava"
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

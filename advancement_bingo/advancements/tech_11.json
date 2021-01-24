@@ -1,0 +1,37 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "There and Back Again",
+    "description": "Vist the Nether, Obtain Nether Quartz, and Make it Back Alive",
+    "icon": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "criteria": {
+    "trigger_1": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    },
+    "trigger_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:quartz"
+          }
+        ]
+      }
+    },
+    "trigger_3": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

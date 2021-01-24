@@ -1,0 +1,25 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "So THAT'S where I left my glasses.",
+    "description": "Obtain a fully explored map",
+    "icon": {
+      "item": "minecraft:filled_map"
+    }
+  },
+  "criteria": {
+    "granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:filled_map"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

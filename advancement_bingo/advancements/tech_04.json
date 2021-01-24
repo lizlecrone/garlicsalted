@@ -1,0 +1,28 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Trick or Treat",
+    "description": "Carve a Pumpkin",
+    "icon": {
+      "item": "minecraft:carved_pumpkin"
+    }
+  },
+  "criteria": {
+    "jack": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "block": "minecraft:carved_pumpkin"
+          }
+        },
+        "item": {
+          "item": "minecraft:shears"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

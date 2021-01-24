@@ -1,0 +1,28 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Gender Reveal Party",
+    "description": "Set Fire to a Tree Trunk",
+    "icon": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "criteria": {
+    "fire": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "minecraft:logs_that_burn"
+          }
+        },
+        "item": {
+          "item": "minecraft:flint_and_steel"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

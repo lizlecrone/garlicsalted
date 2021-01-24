@@ -1,0 +1,23 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Murder Hornets",
+    "description": "Die by Bee Sting",
+    "icon": {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "criteria": {
+    "sting": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:bee"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

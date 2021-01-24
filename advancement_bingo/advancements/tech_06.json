@@ -1,0 +1,21 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Gotta Blast!",
+    "description": "Place a Blast Furnace",
+    "icon": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "criteria": {
+    "neutron": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:blast_furnace"
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}
