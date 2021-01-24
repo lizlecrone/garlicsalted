@@ -4,7 +4,7 @@
     "title": "Could you repeat that?",
     "description": "Placed a redstone repeater",
     "icon": {
-        "item": "minecraft:redstone"
+      "item": "minecraft:redstone"
     }
   },
   "criteria": {

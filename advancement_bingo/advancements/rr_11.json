@@ -4,7 +4,7 @@
     "title": "GIDDY UP",
     "description": "Tame a Horse",
     "icon": {
-        "item": "minecraft:leather_horse_armor"
+      "item": "minecraft:leather_horse_armor"
     }
   },
   "criteria": {
@@ -12,10 +12,10 @@
       "trigger": "minecraft:tame_animal",
       "conditions": {
         "entity": {
-		  "type": "minecraft:horse"
+          "type": "minecraft:horse"
         }
       }
-	}
+    }
   },
   "rewards": {
     "function": "hunt:advancement"

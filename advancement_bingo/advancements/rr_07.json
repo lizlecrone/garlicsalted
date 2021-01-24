@@ -1,10 +1,10 @@
 {
   "parent": "hunt:root",
   "display": {
-    "title": "In theory this will get you 6 best friends.",
-    "description": "Obtain 6 Diamonds",
+    "title": "I'm sure this is worth the effort.",
+    "description": "Obtain a block of obsidian",
     "icon": {
-        "item": "minecraft:diamond"
+      "item": "minecraft:obsidian"
     }
   },
   "criteria": {
@@ -13,8 +13,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:diamond",
-			"count": 6
+            "item": "minecraft:obsidian"
           }
         ]
       }

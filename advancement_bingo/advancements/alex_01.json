@@ -4,7 +4,7 @@
     "title": "Moo?",
     "description": "Reel in a cow using a fishing rod",
     "icon": {
-        "item": "minecraft:fishing_rod"
+      "item": "minecraft:fishing_rod"
     }
   },
   "criteria": {

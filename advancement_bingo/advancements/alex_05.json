@@ -1,10 +1,10 @@
 {
   "parent": "hunt:root",
   "display": {
-    "title": "Blue Pick Good",
-    "description": "Craft a Diamond Pick",
+    "title": "It was like that when I got here",
+    "description": "Obtain a Damaged Anvil",
     "icon": {
-        "item": "minecraft:diamond_pickaxe"
+      "item": "minecraft:damaged_anvil"
     }
   },
   "criteria": {
@@ -13,7 +13,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:diamond_pickaxe"
+            "item": "minecraft:damaged_anvil"
           }
         ]
       }

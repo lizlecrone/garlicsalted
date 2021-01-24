@@ -1,10 +1,10 @@
 {
   "parent": "hunt:root",
   "display": {
-    "title": "It was like that when I got here",
-    "description": "Obtain a Damaged Anvil",
+    "title": "In theory this will get you 6 best friends.",
+    "description": "Obtain 6 Diamonds",
     "icon": {
-        "item": "minecraft:damaged_anvil"
+      "item": "minecraft:diamond"
     }
   },
   "criteria": {
@@ -13,7 +13,8 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:damaged_anvil"
+            "item": "minecraft:diamond",
+            "count": 6
           }
         ]
       }

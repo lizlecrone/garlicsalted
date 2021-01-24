@@ -4,7 +4,7 @@
     "title": "An expensive snack!",
     "description": "Eat a golden apple",
     "icon": {
-        "item": "minecraft:golden_apple"
+      "item": "minecraft:golden_apple"
     }
   },
   "criteria": {
@@ -12,7 +12,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-            "item": "minecraft:golden_apple"
+          "item": "minecraft:golden_apple"
         }
       }
     }

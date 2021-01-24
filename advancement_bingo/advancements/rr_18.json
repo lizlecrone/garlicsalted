@@ -4,7 +4,7 @@
     "title": "What up, I'm Jared, I'm 19 and I never learned to f*cking read. ",
     "description": "Placed a bookshelf",
     "icon": {
-        "item": "minecraft:bookshelf"
+      "item": "minecraft:bookshelf"
     }
   },
   "criteria": {
