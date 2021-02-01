@@ -4,7 +4,7 @@
     "title": "Can I offer you a nice egg in this trying time?",
     "description": "Make a Trade with a Villager",
     "icon": {
-        "item": "minecraft:egg"
+      "item": "minecraft:egg"
     }
   },
   "criteria": {

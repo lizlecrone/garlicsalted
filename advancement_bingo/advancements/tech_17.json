@@ -1,0 +1,23 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Swim With the Dolphins",
+    "description": "Recieve Dolphin's Grace Effect",
+    "icon": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "criteria": {
+    "dolphin": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:dolphins_grace": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

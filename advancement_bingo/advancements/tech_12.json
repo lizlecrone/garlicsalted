@@ -1,18 +1,18 @@
 {
   "parent": "hunt:root",
   "display": {
-    "title": "GIDDY UP",
-    "description": "Tame a Horse",
+    "title": "Murder Hornets",
+    "description": "Die by Bee Sting",
     "icon": {
-      "item": "minecraft:leather_horse_armor"
+      "item": "minecraft:honeycomb"
     }
   },
   "criteria": {
-    "tame": {
-      "trigger": "minecraft:tame_animal",
+    "sting": {
+      "trigger": "minecraft:entity_killed_player",
       "conditions": {
         "entity": {
-          "type": "minecraft:horse"
+          "type": "minecraft:bee"
         }
       }
     }

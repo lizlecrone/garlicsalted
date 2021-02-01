@@ -1,0 +1,39 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Taking on Notch's Angels",
+    "description": "Kill 1 skeleton, 1 creeper, and 1 zombie",
+    "icon": {
+      "item": "minecraft:creeper_head"
+    }
+  },
+  "criteria": {
+    "trigger_1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:creeper"
+        }
+      }
+    },
+    "trigger_2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton"
+        }
+      }
+    },
+    "trigger_3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

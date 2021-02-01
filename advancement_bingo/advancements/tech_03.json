@@ -1,0 +1,26 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "I can count to 100000000",
+    "description": "Place a Dandelion at the Build Limit",
+    "icon": {
+      "item": "minecraft:dandelion"
+    }
+  },
+  "criteria": {
+    "flowertower": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:dandelion",
+        "location": {
+          "position": {
+            "y": 255
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "parent": "hunt:root",
   "display": {
-    "title": "In theory this will get you 6 best friends.",
-    "description": "Obtain 6 Diamonds",
+    "title": "First steps to becoming Iron Man.",
+    "description": "Obtain 64 Iron Ingots",
     "icon": {
-        "item": "minecraft:diamond"
+      "item": "minecraft:iron_ingot"
     }
   },
   "criteria": {
@@ -13,8 +13,8 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:diamond",
-			"count": 6
+            "item": "minecraft:iron_ingot",
+            "count": 64
           }
         ]
       }

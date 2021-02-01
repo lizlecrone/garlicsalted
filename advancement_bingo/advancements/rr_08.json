@@ -4,7 +4,7 @@
     "title": "1 Fish, 2 Fish, Red Fish, Blue Fish",
     "description": "Obtain a Cod, a Salmon, and a Pufferfish",
     "icon": {
-        "item": "minecraft:pufferfish_bucket"
+      "item": "minecraft:pufferfish_bucket"
     }
   },
   "criteria": {
@@ -12,16 +12,16 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
-		  {
-			"item": "minecraft:pufferfish"
-			},
-		  {
-			"item": "minecraft:salmon"
-			},
-		  {
-			"item": "minecraft:cod"
-		  }
-		]
+          {
+            "item": "minecraft:pufferfish"
+          },
+          {
+            "item": "minecraft:salmon"
+          },
+          {
+            "item": "minecraft:cod"
+          }
+        ]
       }
     }
   },

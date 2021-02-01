@@ -1,0 +1,29 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Stay On Target",
+    "description": "Hit a Target Block With a Projectile",
+    "icon": {
+      "item": "minecraft:target"
+    }
+  },
+  "criteria": {
+    "target": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "projectile": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "tag": "minecraft:impact_projectiles"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "parent": "hunt:root",
   "display": {
-    "title": "Blue Pick Good",
-    "description": "Craft a Diamond Pick",
+    "title": "So THAT'S where I left my glasses.",
+    "description": "Obtain a fully explored map",
     "icon": {
-        "item": "minecraft:diamond_pickaxe"
+      "item": "minecraft:filled_map"
     }
   },
   "criteria": {
@@ -13,7 +13,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:diamond_pickaxe"
+            "item": "minecraft:filled_map"
           }
         ]
       }

@@ -1,17 +1,17 @@
 {
   "parent": "hunt:root",
   "display": {
-    "title": "Could you repeat that?",
-    "description": "Placed a redstone repeater",
+    "title": "Gotta Blast!",
+    "description": "Place a Blast Furnace",
     "icon": {
-        "item": "minecraft:redstone"
+      "item": "minecraft:blast_furnace"
     }
   },
   "criteria": {
-    "repeater": {
+    "neutron": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "minecraft:repeater"
+        "block": "minecraft:blast_furnace"
       }
     }
   },

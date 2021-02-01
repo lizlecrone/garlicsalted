@@ -1,0 +1,21 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Just a Light Powder",
+    "description": "Stand IN Some Ankle Deep Snow",
+    "icon": {
+      "item": "minecraft:snow"
+    }
+  },
+  "criteria": {
+    "snow": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:snow"
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

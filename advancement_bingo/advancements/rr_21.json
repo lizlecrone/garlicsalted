@@ -1,0 +1,37 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Offbrand Infinity Stones",
+    "description": "Obtain 1 each of stone, cobblestone, granite, andesite, and diorite.",
+    "icon": {
+      "item": "minecraft:stone"
+    }
+  },
+  "criteria": {
+    "granite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stone"
+          },
+          {
+            "item": "minecraft:cobblestone"
+          },
+          {
+            "item": "minecraft:diorite"
+          },
+          {
+            "item": "minecraft:andesite"
+          },
+          {
+            "item": "minecraft:granite"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

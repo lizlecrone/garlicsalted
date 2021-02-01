@@ -1,0 +1,29 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "High and Low",
+    "description": "Place a Snow Block at or Below Bedrock Level",
+    "icon": {
+      "item": "minecraft:bedrock"
+    }
+  },
+  "criteria": {
+    "bedrock": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:snow_block",
+        "location": {
+          "position": {
+            "y": {
+              "max": 5,
+              "min": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

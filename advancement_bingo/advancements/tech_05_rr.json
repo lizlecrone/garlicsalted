@@ -1,0 +1,28 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Oooh pretty!",
+    "description": "Place a flower in a flower pot.",
+    "icon": {
+      "item": "minecraft:flower_pot"
+    }
+  },
+  "criteria": {
+    "pot": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "tag": "minecraft:flower_pots"
+          }
+        },
+        "item": {
+          "tag": "minecraft:small_flowers"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

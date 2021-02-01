@@ -1,23 +1,23 @@
 {
   "parent": "hunt:root",
   "display": {
-    "title": "The great outdoors",
-    "description": "Cooked a porkchop on a campfire",
+    "title": "Gender Reveal Party",
+    "description": "Set Fire to a Tree Trunk",
     "icon": {
-        "item": "minecraft:campfire"
+      "item": "minecraft:oak_log"
     }
   },
   "criteria": {
-    "example": {
+    "fire": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "location": {
           "block": {
-            "tag": "minecraft:campfires"
+            "tag": "minecraft:logs_that_burn"
           }
         },
         "item": {
-          "item": "minecraft:porkchop"
+          "item": "minecraft:flint_and_steel"
         }
       }
     }

@@ -1,17 +1,17 @@
 {
   "parent": "hunt:root",
   "display": {
-    "title": "What up, I'm Jared, I'm 19 and I never learned to f*cking read. ",
-    "description": "Placed a bookshelf",
+    "title": "Polish a Bird Turd",
+    "description": "Place Polished Diorite",
     "icon": {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:polished_diorite"
     }
   },
   "criteria": {
-    "book": {
+    "birdshit": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "block": "minecraft:bookshelf"
+        "block": "minecraft:polished_diorite"
       }
     }
   },

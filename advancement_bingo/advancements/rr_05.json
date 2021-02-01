@@ -1,0 +1,33 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Low Effort Rainbow",
+    "description": "Placed an iron block, a gold block, and a diamond block",
+    "icon": {
+      "item": "minecraft:bow"
+    }
+  },
+  "criteria": {
+    "trigger_1": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:iron_block"
+      }
+    },
+    "trigger_2": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:gold_block"
+      }
+    },
+    "trigger_3": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:diamond_block"
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

@@ -1,10 +1,10 @@
 {
   "parent": "hunt:root",
   "display": {
-    "title": "I'm sure this is worth the effort.",
-    "description": "Obtain a block of obsidian",
+    "title": "Blue Pick Good",
+    "description": "Craft a Diamond Pick",
     "icon": {
-        "item": "minecraft:obsidian"
+      "item": "minecraft:diamond_pickaxe"
     }
   },
   "criteria": {
@@ -13,7 +13,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:obsidian"
+            "item": "minecraft:diamond_pickaxe"
           }
         ]
       }

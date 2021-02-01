@@ -1,0 +1,27 @@
+{
+  "parent": "hunt:root",
+  "display": {
+    "title": "Remember to Stay Hydrated",
+    "description": "Drink a Bottle of Water",
+    "icon": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "criteria": {
+    "thirsty": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "minecraft:potion",
+          "count": {
+            "min": 1
+          },
+          "potion": "minecraft:water"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunt:advancement"
+  }
+}

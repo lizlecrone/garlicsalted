@@ -1,10 +1,10 @@
 {
   "parent": "hunt:root",
   "display": {
-    "title": "First steps to becoming Iron Man.",
-    "description": "Obtain 64 Iron Ingots",
+    "title": "It was like that when I got here",
+    "description": "Obtain a Damaged Anvil",
     "icon": {
-        "item": "minecraft:iron_ingot"
+      "item": "minecraft:damaged_anvil"
     }
   },
   "criteria": {
@@ -13,8 +13,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:iron_ingot",
-			"count": 64
+            "item": "minecraft:damaged_anvil"
           }
         ]
       }
