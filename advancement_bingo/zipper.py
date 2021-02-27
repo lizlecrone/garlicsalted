@@ -14,7 +14,7 @@ def write(archive, filepath, destination):
 	archive.write(filepath, os.path.join(destination, os.path.basename(filepath)))
 
 def generate_random_zip(fp):
-	selected_advancements = random.sample(all_advancements, 1)
+	selected_advancements = random.sample(all_advancements, 5)
 	generate_zip(fp, selected_advancements)
 
 def generate_zip(fp, selected_advancements):
