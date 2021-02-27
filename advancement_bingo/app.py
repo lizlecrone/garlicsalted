@@ -1,8 +1,13 @@
+# TODO types of randomized game
+# TODO randomize function needs to take type as argument?
+# TODO customize list needs to pull all files from subfolders
+
+
 import os
 import json
 import tempfile
 from zipper import generate_zip, generate_random_zip
-from advancement_parser import advancements
+from advancement_parser import serialized_advancements, all_advancements
 from flask import Flask, current_app, render_template, request
 
 app = Flask(__name__)
@@ -13,7 +18,7 @@ def index():
 
 @app.route('/api/advancements')
 def get_advancements():
-	return json.dumps(advancements)
+	return json.dumps(serialized_advancements)
 
 @app.route('/generate/random')
 def generate_random():
@@ -31,8 +36,8 @@ def generate_random():
 
 @app.route('/generate/custom')
 def generate_custom():
-	selected_advancements = json.loads(request.args.get('selected'))
-	print(selected_advancements)
+	selected_ids = json.loads(request.args.get('selected'))
+	selected_advancements = [adv for adv in all_advancements if adv.id in selected_ids]
 
 	def stream_and_remove_file():
 		with tempfile.SpooledTemporaryFile() as fp:

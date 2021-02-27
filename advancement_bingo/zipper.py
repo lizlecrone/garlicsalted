@@ -1,8 +1,8 @@
 import os
 import random
 import zipfile
+from advancement_parser import all_advancements
 
-all_advancements = os.listdir('advancements')
 
 def advancement_function(number):
 	return (
@@ -11,10 +11,10 @@ def advancement_function(number):
 	)
 
 def write(archive, filepath, destination):
-	archive.write(filepath, os.path.join(destination, filepath))
+	archive.write(filepath, os.path.join(destination, os.path.basename(filepath)))
 
 def generate_random_zip(fp):
-	selected_advancements = random.sample(all_advancements, 5)
+	selected_advancements = random.sample(all_advancements, 1)
 	generate_zip(fp, selected_advancements)
 
 def generate_zip(fp, selected_advancements):
@@ -24,13 +24,16 @@ def generate_zip(fp, selected_advancements):
 		data_folder = os.path.join(top_folder, 'data')
 		hunt_folder = os.path.join(data_folder, 'hunt')
 		advancements_folder = os.path.join(hunt_folder, 'advancements')
+		functions_folder = os.path.join(hunt_folder, 'functions')
 		write(archive, 'pack.mcmeta', top_folder)
 		for function in os.listdir('functions'):
-			write(archive, os.path.join('functions', function), hunt_folder)
+			write(archive, os.path.join('functions', function), functions_folder)
 		archive.writestr(
 			os.path.join(hunt_folder, 'functions', 'advancement.mcfunction'),
 			advancement_function(len(selected_advancements))
 		)
 		write(archive, 'root.json', advancements_folder)
 		for advancement in selected_advancements:
-			write(archive, os.path.join('advancements', advancement), hunt_folder)
+			write(archive, advancement.path, advancements_folder)
+
+# TODO ^ iterate through advancements dict
