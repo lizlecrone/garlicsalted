@@ -48,8 +48,5 @@
       "pufferfish_bucket",
       "salmon_bucket"
     ]
-  ],
-  "rewards": {
-    "function": "hunt:advancement"
-  }
+  ]
 }

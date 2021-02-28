@@ -26,8 +26,5 @@
         "block": "minecraft:diamond_block"
       }
     }
-  },
-  "rewards": {
-    "function": "hunt:advancement"
   }
 }

@@ -30,8 +30,5 @@
         "to": "minecraft:overworld"
       }
     }
-  },
-  "rewards": {
-    "function": "hunt:advancement"
   }
 }

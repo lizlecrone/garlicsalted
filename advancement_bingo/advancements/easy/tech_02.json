@@ -17,8 +17,5 @@
         }
       }
     }
-  },
-  "rewards": {
-    "function": "hunt:advancement"
   }
 }

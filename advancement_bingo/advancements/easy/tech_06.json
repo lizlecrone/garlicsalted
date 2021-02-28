@@ -14,8 +14,5 @@
         "block": "minecraft:blast_furnace"
       }
     }
-  },
-  "rewards": {
-    "function": "hunt:advancement"
   }
 }

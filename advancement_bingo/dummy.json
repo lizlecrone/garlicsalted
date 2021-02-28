@@ -1,0 +1,16 @@
+{
+    "parent": "hunt:root",
+    "display": {
+        "title": "You have a new goal!",
+        "description": "Complete this advancement before everyone else to get a point",
+        "icon": {
+            "item": "minecraft:target"
+        },
+        "hidden": true
+    },
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:impossible"
+        }
+  }
+}

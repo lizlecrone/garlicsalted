@@ -24,8 +24,5 @@
         ]
       }
     }
-  },
-  "rewards": {
-    "function": "hunt:advancement"
   }
 }

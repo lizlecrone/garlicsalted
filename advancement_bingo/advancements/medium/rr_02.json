@@ -11,8 +11,5 @@
     "granite": {
       "trigger": "minecraft:villager_trade"
     }
-  },
-  "rewards": {
-    "function": "hunt:advancement"
   }
 }

@@ -14,8 +14,5 @@
         "block": "lava"
       }
     }
-  },
-  "rewards": {
-    "function": "hunt:advancement"
   }
 }

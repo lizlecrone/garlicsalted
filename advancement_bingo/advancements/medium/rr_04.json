@@ -19,8 +19,5 @@
         ]
       }
     }
-  },
-  "rewards": {
-    "function": "hunt:advancement"
   }
 }
