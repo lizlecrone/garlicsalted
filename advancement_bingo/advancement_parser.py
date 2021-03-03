@@ -1,6 +1,7 @@
 import os
 import json
 
+
 class Advancement:
     MODE_HUNT = 'hunt'
     MODE_SERIES = 'series'
@@ -36,6 +37,22 @@ class Advancement:
         elif self.game_mode == self.MODE_SERIES:
             data['rewards'] = {'function': f'hunt:advancement_{number}'}
             data['parent'] = f'hunt:dummy_{number}'
+            new_condition = {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "player": {
+                        "advancements": {
+                            f"hunt:dummy_{number}": True
+                        }
+                    }
+                }
+            }
+            for criteria in data['criteria'].values():
+                if 'player' in criteria['conditions']:
+                    criteria['conditions']['player'] += [new_condition]
+                else:
+                    criteria['conditions']['player'] = [new_condition]
 
         return json.dumps(data)
     
@@ -46,6 +63,12 @@ for difficulty_level in os.listdir('advancements'):
     filenames = os.listdir(os.path.join('advancements', difficulty_level))
     for filename in filenames:
         all_advancements.append(Advancement(difficulty=difficulty_level, filename=filename))
+
+easy_advancements = []
+
+for filename in os.listdir(os.path.join('advancements', 'easy')):
+    easy_advancements.append(Advancement(difficulty='easy', filename=filename))
+
 
 item_png_map = {}
 

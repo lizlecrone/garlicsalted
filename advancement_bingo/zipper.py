@@ -1,7 +1,7 @@
 import os
 import random
 import zipfile
-from advancement_parser import all_advancements
+from advancement_parser import all_advancements, easy_advancements
 
 
 def advancement_function(number):
@@ -31,13 +31,14 @@ def write(archive, filepath, destination):
 
 
 def generate_random_zip(fp):
-    selected_advancements = random.sample(all_advancements, 5)
+    selected_advancements = random.sample(easy_advancements, 5)
     for adv in selected_advancements:
         adv.set_game_mode(adv.MODE_HUNT)
     generate_zip(fp, selected_advancements)
 
 
 def generate_series_random_zip(fp):
+    # selected_advancements = random.sample(easy_advancements, 2)
     selected_advancements = random.sample(all_advancements, 25)
     for adv in selected_advancements:
         adv.set_game_mode(adv.MODE_SERIES)
