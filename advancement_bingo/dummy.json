@@ -6,7 +6,8 @@
         "icon": {
             "item": "minecraft:target"
         },
-        "hidden": true
+        "hidden": true,
+        "announce_to_chat": false
     },
     "criteria": {
         "example": {

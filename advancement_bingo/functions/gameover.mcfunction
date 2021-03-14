@@ -4,7 +4,7 @@ summon firework_rocket ~1 ~1 ~1 {LifeTime:15,FireworksItem:{id:firework_rocket,C
 summon firework_rocket ~1 ~1 ~-1 {LifeTime:15,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:4,Flicker:1,Trail:1,Colors:[I;2437522,15790320],FadeColors:[I;1973019]}]}}}}
 
 
-playsound minecraft:ui.toast.challenge_complete master @a
+playsound minecraft:ui.toast.challenge_complete player @a
 say @s has completed all Scavenger Hunt advancements!
 gamemode spectator @s
 
