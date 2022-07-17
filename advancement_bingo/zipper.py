@@ -38,8 +38,9 @@ def generate_random_zip(fp):
 
 
 def generate_series_random_zip(fp):
-    # selected_advancements = easy_advancements
-    selected_advancements = random.sample(all_advancements, 25)
+    random.shuffle(easy_advancements)
+    selected_advancements = easy_advancements
+    # selected_advancements = random.sample(all_advancements, 25)
     for adv in selected_advancements:
         adv.set_game_mode(adv.MODE_SERIES)
 

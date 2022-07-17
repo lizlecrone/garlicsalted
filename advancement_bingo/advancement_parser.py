@@ -68,6 +68,8 @@ easy_advancements = []
 
 for filename in os.listdir(os.path.join('advancements', 'easy')):
     easy_advancements.append(Advancement(difficulty='easy', filename=filename))
+for filename in os.listdir(os.path.join('advancements', 'very_easy')):
+    easy_advancements.append(Advancement(difficulty='very_easy', filename=filename))
 
 
 item_png_map = {}

@@ -13,13 +13,11 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:pufferfish"
-          },
-          {
-            "item": "minecraft:salmon"
-          },
-          {
-            "item": "minecraft:cod"
+            "items": [
+              "minecraft:pufferfish",
+              "minecraft:salmon",
+              "minecraft:cod"
+            ]
           }
         ]
       }

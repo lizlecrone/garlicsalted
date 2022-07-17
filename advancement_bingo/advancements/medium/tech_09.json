@@ -17,7 +17,7 @@
           }
         },
         "item": {
-          "item": "minecraft:written_book"
+          "items": ["minecraft:written_book"]
         }
       }
     }

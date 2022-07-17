@@ -13,7 +13,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:diamond",
+            "items": ["minecraft:diamond"],
             "count": 6
           }
         ]

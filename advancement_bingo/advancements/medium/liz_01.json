@@ -12,7 +12,7 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "item": "minecraft:golden_apple"
+          "items": ["minecraft:golden_apple"]
         }
       }
     }

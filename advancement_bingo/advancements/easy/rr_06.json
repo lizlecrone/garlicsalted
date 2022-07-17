@@ -13,7 +13,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:diamond_pickaxe"
+            "items": ["minecraft:diamond_pickaxe"]
           }
         ]
       }

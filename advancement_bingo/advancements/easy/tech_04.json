@@ -17,7 +17,7 @@
           }
         },
         "item": {
-          "item": "minecraft:shears"
+          "items": ["minecraft:shears"]
         }
       }
     }

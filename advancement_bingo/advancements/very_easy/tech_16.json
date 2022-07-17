@@ -17,7 +17,7 @@
           }
         },
         "item": {
-          "item": "minecraft:flint_and_steel"
+          "items": ["minecraft:flint_and_steel"]
         }
       }
     }

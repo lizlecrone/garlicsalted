@@ -8,24 +8,62 @@
     }
   },
   "criteria": {
+    "stone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stone"
+            ]
+          }
+        ]
+      }
+    },
+    "cobblestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cobblestone"
+            ]
+          }
+        ]
+      }
+    },
+    "diorite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diorite"
+            ]
+          }
+        ]
+      }
+    },
+    "andesite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:andesite"
+            ]
+          }
+        ]
+      }
+    },
     "granite": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:stone"
-          },
-          {
-            "item": "minecraft:cobblestone"
-          },
-          {
-            "item": "minecraft:diorite"
-          },
-          {
-            "item": "minecraft:andesite"
-          },
-          {
-            "item": "minecraft:granite"
+            "items": [
+              "minecraft:granite"
+            ]
           }
         ]
       }

@@ -13,7 +13,7 @@
       "conditions": {
         "durability": 0,
         "item": {
-          "item": "minecraft:golden_hoe"
+          "items": ["minecraft:golden_hoe"]
         }
       }
     }

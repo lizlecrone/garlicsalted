@@ -12,7 +12,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "item": "minecraft:red_dye"
+          "items": ["minecraft:red_dye"]
         },
         "entity": {
           "type": "minecraft:sheep"
@@ -23,7 +23,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "item": "minecraft:blue_dye"
+          "items": ["minecraft:blue_dye"]
         },
         "entity": {
           "type": "minecraft:sheep"
@@ -34,7 +34,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "item": "minecraft:yellow_dye"
+          "items": ["minecraft:yellow_dye"]
         },
         "entity": {
           "type": "minecraft:sheep"
@@ -45,7 +45,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "item": "minecraft:orange_dye"
+          "items": ["minecraft:orange_dye"]
         },
         "entity": {
           "type": "minecraft:sheep"
@@ -56,7 +56,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "item": "minecraft:purple_dye"
+          "items": ["minecraft:purple_dye"]
         },
         "entity": {
           "type": "minecraft:sheep"
